@@ -19,8 +19,17 @@ public class Tachenrechner {
 
         System.out.println("--------------------------------------------");
 
-        System.out.printf("Bitte den Rechen Operator eingeben(+ - * /): ");
-        modus = inp.next().charAt(0);
+        while (true) {
+            System.out.printf("Bitte den Rechen Operator eingeben(+ - * /): ");
+            modus = inp.next().charAt(0);
+
+            if (modus == '+' || modus == '-' || modus == '*' || modus == '/') {
+                break;
+            }
+        }
+        
+        inp.close();
+
 
         System.out.println("--------------------------------------------");
 
@@ -34,20 +43,18 @@ public class Tachenrechner {
                     ergebniss = zahl1 * zahl2;
                 }else{
                     if (modus == '/') {
-                        ergebniss = zahl1 / zahl2;
+                        if (zahl2 != 0) {
+                            ergebniss = zahl1 / zahl2;
+                        }else{
+                            throw new java.lang.Error("Division by 0 not allowd");
+                        }
+                        
                     }
                 }
             }
         }
 
         System.out.printf("Das Ergebniss lautet : %d%n",ergebniss);
-
-
-
-		inp.close();
-
-		
-		
 	}
 
 }
