@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(58, 58, 58);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+
+    
+}
+
+header{
+    position: relative;
+    background: grey;
+    background-image: url('assets/wordcloud.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 20%;
+
+}
+
+section{
+    background: white;
+    color: black;
+    padding: 0;
+    margin: 0;
+    height: 69%;
+
+}
+
+#menu-left{
+    position: relative;
+    float: left;
+    padding-right: 7%;
+    background: rgb(173, 170, 170);
+}
+
+ul{
+    list-style: none;
+    margin-top: 10px;
+    margin-left: -15%;
+}
+li{
+    background-color: lightgray;
+    border-style: solid;
+    border: 1px dotted black;
+    margin-bottom: 2px;
+}
+
+footer{
+    height: 10%;
+    background: black;
+    padding: .5%;
+    
+}
+
