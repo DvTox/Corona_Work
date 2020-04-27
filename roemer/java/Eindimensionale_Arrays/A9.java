@@ -2,7 +2,7 @@ import java.util.Arrays;
 public class A9{
     public static void main(String[] args){
 
-        int[] unsortedArr = {10,9,8,3,6,5,4,3,2,1};
+        int[] unsortedArr = {10,9,8,7,6,5,4,3,2,1};
 
         System.out.println("Before: " + Arrays.toString(unsortedArr));
         int[] sortedArr = sortieren(unsortedArr);
@@ -12,20 +12,21 @@ public class A9{
     public static int[] sortieren(int[] arrayZumSotieren) {
         boolean sortiert = false;
         int plazHalter = 0;
-        do {
+        int counter = 0;
+        while(sortiert == false){
             for (int i = 0; i < (arrayZumSotieren.length -1); i++) {
-                if (i == (arrayZumSotieren.length -1) {
-                    sortiert = true;
-                }else if (arrayZumSotieren[i] > arrayZumSotieren[i +1])) {
+                counter = 0;
+                if (arrayZumSotieren[i] > arrayZumSotieren[i +1]) {
                     plazHalter = arrayZumSotieren[i +1];
                     arrayZumSotieren[i+1] = arrayZumSotieren[i];
                     arrayZumSotieren[i] = plazHalter;
+                    counter++;
                     break;
-                }else{
-                    continue;
+                }else if (counter == 0 && i >= arrayZumSotieren.length -2) {
+                    sortiert = true;
                 }
             }
-        } while (sortiert != true);
+        }
         return arrayZumSotieren;
     }
 
