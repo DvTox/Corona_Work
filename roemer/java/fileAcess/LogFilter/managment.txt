@@ -1,0 +1,2 @@
+SUNDAY    Neuer Kunde registriert
+SUNDAY    Kunde registriert

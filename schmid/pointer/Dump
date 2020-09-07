@@ -1,0 +1,5 @@
+    char foo[] = {'H','A','L','L','O','\n','\0'};
+    cout << foo;
+
+    int ba[] = {1,2,3,17,111};
+    cout << ba << endl;

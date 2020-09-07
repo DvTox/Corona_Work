@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Plattensammlung<fileAcess_9cfa1167>",
+            "request": "launch",
+            "mainClass": "Plattensammlung",
+            "projectName": "fileAcess_9cfa1167"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-VokalManipulator<fileAcess_9cfa1167>",
+            "request": "launch",
+            "mainClass": "VokalManipulator",
+            "projectName": "fileAcess_9cfa1167"
+        }
+    ]
+}

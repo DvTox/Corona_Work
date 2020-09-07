@@ -1,0 +1,14 @@
+2020-09-06T19:45:47.157462    INFO    Dienst gestartet
+2020-09-06T19:45:55.157462    INFO    Datenbank Verbindung hergestellt
+2020-09-06T19:45:56.157462    INFO    Applikation bereit
+2020-09-06T19:46:01.157462    INFO    Kunde eingeloggt
+2020-09-06T19:46:09.157462    INFO    Kunde abgemeldet
+2020-09-06T19:46:09.157462    WARNING    Login fehlgeschlagen
+2020-09-06T19:46:11.157462    INFO    Neuer Kunde registriert
+2020-09-06T19:46:20.157462    ERROR    Datenbank nicht erreichbar
+2020-09-06T19:46:26.157462    INFO    Datenbank Verbindung hergestellt
+2020-09-06T19:46:34.157462    WARNING    Speicherplatz zu 90% belegt
+2020-09-06T19:46:40.157462    INFO    Kunde eingeloggt
+2020-09-06T19:46:41.157462    INFO    Kunde eingeloggt
+2020-09-06T19:46:45.157462    INFO    Kunde registriert
+2020-09-06T19:46:48.157462    INFO    Kunde abgemeldet
